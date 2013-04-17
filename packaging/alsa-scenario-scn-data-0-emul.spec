@@ -1,6 +1,6 @@
 Name:       alsa-scenario-scn-data-0-emul
 Summary:    alsa scenario data for emulator codec
-Version:    0.1.0
+Version:    0.1.1
 Release:    2
 Group:      TO_BE/FILLED_IN
 License:    LGPLv2.1
