@@ -5,6 +5,7 @@ Release:    2
 Group:      TO_BE/FILLED_IN
 License:    LGPLv2.1
 Source0:    %{name}-%{version}.tar.gz
+Source1001: packaging/alsa-scenario-scn-data-0-emul.manifest
 
 %description
 Alsa scenario data for emulator codec
