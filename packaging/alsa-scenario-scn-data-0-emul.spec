@@ -1,6 +1,6 @@
 Name:       alsa-scenario-scn-data-0-emul
 Summary:    alsa scenario data for emulator codec
-Version:    0.1.1
+Version:    0.1.2
 Release:    2
 Group:      TO_BE/FILLED_IN
 License:    LGPLv2.1
@@ -20,6 +20,8 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/etc/sound
 cp -a emul %{buildroot}/usr/etc/sound
 cp -a emul.conf %{buildroot}/usr/etc/sound/emul.conf
+mkdir -p %{buildroot}/usr/share/license
+cp LICENSE.LGPLv2.1 %{buildroot}/usr/share/license/%{name}
 
 %post
 BASE_PATH=/usr/etc/sound
@@ -43,3 +45,4 @@ rm -f $BASE_PATH/default
 
 %files
 /usr/etc/sound/*
+/usr/share/license/%{name}
