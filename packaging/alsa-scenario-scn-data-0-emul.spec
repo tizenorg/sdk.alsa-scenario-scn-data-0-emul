@@ -3,7 +3,7 @@ Summary:    alsa scenario data for emulator codec
 Version:    0.1.1
 Release:    2
 Group:      TO_BE/FILLED_IN
-License:    LGPLv2.1
+License:    LGPL-2.1+
 ExclusiveArch: %{ix86} 
 Source0:    %{name}-%{version}.tar.gz
 Source1001: packaging/alsa-scenario-scn-data-0-emul.manifest
